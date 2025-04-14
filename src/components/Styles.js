@@ -5,7 +5,8 @@ import styles from "@/data/stylesData";
 import StyleCategory from "./StyleCategory";
 
 export default function Styles() {
-  const [openCategory, setOpenCategory] = useState(null);
+  // Default open category is "hair"
+  const [openCategory, setOpenCategory] = useState("hair");
 
   const handleToggle = (category) => {
     setOpenCategory((prev) => (prev === category ? null : category));
