@@ -7,7 +7,7 @@ export default function Banner() {
     <div className="relative h-[100vh] w-[100vw] bg-[#081518] overflow-hidden">
       <div className="absolute top-0 right-0 w-[100%] h-full">
         <Image
-          className="object-cover"
+          className="object-cover object-top"
           fill
           alt="banner-image"
           src="/images/banner4.jpg"
