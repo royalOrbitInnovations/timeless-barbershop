@@ -1,17 +1,12 @@
-// StyleCategory.js
 "use client";
-
-import { useState } from "react";
 import SubCategoryList from "./SubCategoryList";
 
-export default function StyleCategory({ type, data }) {
-  const [isOpen, setIsOpen] = useState(false);
-
+export default function StyleCategory({ type, data, isOpen, onToggle }) {
   return (
-    <div className="border-2 border-gold rounded">
+    <div className="border-2 border-gold rounded-[25px] overflow-hidden">
       <div
         className="flex justify-between items-center px-[5rem] py-[2rem] cursor-pointer bg-white m-2"
-        onClick={() => setIsOpen((prev) => !prev)}
+        onClick={onToggle}
       >
         <h2 className="text-[3rem] text-black text-xl font-bold">
           {type === "hair" ? "Hair Styles" : "Beard Styles"}

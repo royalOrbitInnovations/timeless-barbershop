@@ -7,7 +7,7 @@ const styles = {
           name: "Modern Mullet",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -36,7 +36,7 @@ const styles = {
           name: "Low Taper Fade",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -44,7 +44,7 @@ const styles = {
           name: "Crew Cut",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -52,7 +52,7 @@ const styles = {
           name: "Comb Over",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -65,7 +65,7 @@ const styles = {
           name: "Mohawk Fade",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -73,7 +73,7 @@ const styles = {
           name: "Buzz Cut with Design",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -81,7 +81,7 @@ const styles = {
           name: "Textured Undercut",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -94,7 +94,7 @@ const styles = {
           name: "Mid Length Waves",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -102,7 +102,7 @@ const styles = {
           name: "Curly High Top Fade",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -110,7 +110,7 @@ const styles = {
           name: "Natural Waves and Curls",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -123,7 +123,7 @@ const styles = {
           name: "Brocolli Cut",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -131,7 +131,7 @@ const styles = {
           name: "Edgar Cut",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -139,7 +139,7 @@ const styles = {
           name: "Textured Crop",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -154,7 +154,7 @@ const styles = {
           name: "Tapered Beard",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -162,7 +162,7 @@ const styles = {
           name: "Beardstache",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -170,7 +170,7 @@ const styles = {
           name: "Wild Beard",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -183,7 +183,7 @@ const styles = {
           name: "Stubble Beard",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -191,7 +191,7 @@ const styles = {
           name: "Circle Beard",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -199,7 +199,7 @@ const styles = {
           name: "Classic Full Beard",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -212,7 +212,7 @@ const styles = {
           name: "Patchy Anchored Stache",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -220,7 +220,7 @@ const styles = {
           name: "Freestyle Beard",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
@@ -228,7 +228,7 @@ const styles = {
           name: "Imperial Moustache",
           images: [
             "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullte-2.webp",
+            "/images/haircuts/mullet-2.webp",
             "/images/haircuts/mullet-3.webp",
           ],
         },
