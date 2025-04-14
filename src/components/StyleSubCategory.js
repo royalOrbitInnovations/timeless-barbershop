@@ -1,6 +1,5 @@
-// StyleSubCategory.js
 "use client";
-import { useState } from "react"; // Needed for use client context
+import { useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import StyleTypeItem from "./StyleTypeItem";
 
@@ -9,15 +8,40 @@ const contentVariants = {
   visible: { height: "auto", opacity: 1, transition: { duration: 0.3 } },
 };
 
+const plusVariants = {
+  closed: { rotate: 0 },
+  open: { rotate: 45 },
+};
+
 export default function StyleSubCategory({ code, data, isOpen, onToggle }) {
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    if (isOpen && containerRef.current) {
+      containerRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }, [isOpen]);
+
   return (
-    <div className="border-2 border-black bg-black rounded-[25px] overflow-hidden">
+    <div
+      ref={containerRef}
+      className="border-2 border-black bg-black rounded-[25px] overflow-hidden"
+    >
       <div
         onClick={onToggle}
         className="flex justify-between items-center px-[4rem] py-[1.5rem] cursor-pointer bg-black m-2"
       >
         <h2 className="text-[2rem] text-white font-bold">{data.name}</h2>
-        <span className="text-[2rem] text-gold">{isOpen ? "▲" : "+"}</span>
+        <motion.span
+          className="text-[2rem] text-gold"
+          animate={isOpen ? "open" : "closed"}
+          variants={plusVariants}
+        >
+          +
+        </motion.span>
       </div>
       <AnimatePresence>
         {isOpen && (

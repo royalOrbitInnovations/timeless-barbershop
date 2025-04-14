@@ -1,4 +1,3 @@
-// SubCategoryList.js
 "use client";
 import { useState } from "react";
 import StyleSubCategory from "./StyleSubCategory";
