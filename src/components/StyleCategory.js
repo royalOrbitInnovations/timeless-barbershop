@@ -1,8 +1,10 @@
+// StyleCategory.js
 "use client";
 
 import { useState } from "react";
+import SubCategoryList from "./SubCategoryList";
 
-export default function StyleCategory({ type }) {
+export default function StyleCategory({ type, data }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -18,7 +20,7 @@ export default function StyleCategory({ type }) {
       </div>
       {isOpen && (
         <div className="p-4">
-          <p>Here you can add your sections and images.</p>
+          <SubCategoryList data={data} />
         </div>
       )}
     </div>
