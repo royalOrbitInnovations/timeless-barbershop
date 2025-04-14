@@ -15,8 +15,14 @@ const plusVariants = {
 
 export default function StyleSubCategory({ code, data, isOpen, onToggle }) {
   const containerRef = useRef(null);
+  // Prevent scroll on initial mount
+  const initialMount = useRef(true);
 
   useEffect(() => {
+    if (initialMount.current) {
+      initialMount.current = false;
+      return;
+    }
     if (isOpen && containerRef.current) {
       containerRef.current.scrollIntoView({
         behavior: "smooth",

@@ -15,9 +15,16 @@ const arrowVariants = {
 
 export default function StyleCategory({ type, data, isOpen, onToggle }) {
   const containerRef = useRef(null);
+  // Prevent scroll on initial mount
+  const initialMount = useRef(true);
 
   useEffect(() => {
+    if (initialMount.current) {
+      initialMount.current = false;
+      return;
+    }
     if (isOpen && containerRef.current) {
+      // Use block "start" to align the element to the top
       containerRef.current.scrollIntoView({
         behavior: "smooth",
         block: "start",
