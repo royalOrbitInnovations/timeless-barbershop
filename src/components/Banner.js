@@ -16,7 +16,9 @@ export default function Banner() {
       </div>
       <div className="absolute top-0 left-0 w-full h-full bg-black/50 flex">
         <div className="absolute top-[10rem] left-1/2 -translate-x-1/2">
-          <Logo bg="black" />
+          <div className="h-[25rem] w-[35rem]">
+            <Logo bg="black" />
+          </div>
         </div>
         <div className="absolute w-full h-full flex flex-col gap-[3rem] items-center top-[60%]">
           <h2 className="text-white text-[5rem] text-center font-bold uppercase">
