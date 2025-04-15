@@ -106,14 +106,6 @@ const styles = {
             "/images/haircuts/mullet-3.webp",
           ],
         },
-        {
-          name: "Natural Waves and Curls",
-          images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
-          ],
-        },
       ],
     },
     YAT: {
@@ -129,14 +121,6 @@ const styles = {
         },
         {
           name: "Edgar Cut",
-          images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
-          ],
-        },
-        {
-          name: "Textured Crop",
           images: [
             "/images/haircuts/mullet-1.webp",
             "/images/haircuts/mullet-2.webp",
