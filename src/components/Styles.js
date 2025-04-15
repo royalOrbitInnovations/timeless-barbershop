@@ -1,9 +1,10 @@
 // Styles.js
 "use client";
 import { useState } from "react";
-import { styles, imageData } from "@/data/stylesData";
+import { styles, imageData, prices } from "@/data/stylesData";
 import StyleCategory from "./StyleCategory";
 import Slideshow from "./Slideshow";
+import ServiceList from "./ServiceList";
 
 export default function Styles() {
   // Default open category is "hair"
@@ -39,11 +40,10 @@ export default function Styles() {
         We Provide the following Services
       </h2>
       <div className="flex flex-col gap-[1rem]">
-        <StyleCategory
-          type="services"
-          data={styles.hair}
-          isOpen={openCategory === "services"}
-          onToggle={() => handleToggle("services")}
+        <ServiceList
+          data={prices}
+          isOpen={openCategory === "prices"}
+          onToggle={() => handleToggle("prices")}
         />
       </div>
     </div>

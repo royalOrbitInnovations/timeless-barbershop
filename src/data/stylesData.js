@@ -221,4 +221,47 @@ const imageData = [
   },
 ];
 
-export { styles, imageData };
+const prices = [
+  {
+    name: "Haircut",
+    image: "/images/services/haircutting.webp",
+    cost: "Qar: 30",
+  },
+  {
+    name: "Beard Trim",
+    image: "/images/services/beardtrimming.webp",
+    cost: "Qar: 15",
+  },
+  {
+    name: "Hair Colouring",
+    image: "/images/services/coloring.webp",
+    cost: "Qar: 25",
+  },
+  {
+    name: "Clean Facial and Steam",
+    image: "/images/services/facial.webp",
+    cost: "Qar: 30",
+  },
+  {
+    name: "Haircut Kids",
+    image: "/images/services/kidshaircutting.webp",
+    cost: "Qar: 15",
+  },
+  {
+    name: "Haircut and Beard Trim",
+    image: "/images/services/hairbeard.webp",
+    cost: "Qar: 45",
+  },
+  {
+    name: "Deadlocks",
+    image: "/images/services/deadlock.webp",
+    cost: "Qar: 200+",
+  },
+  {
+    name: "Hair Tint",
+    image: "/images/services/hairtint.webp",
+    cost: "Qar: 50+",
+  },
+];
+
+export { styles, imageData, prices };

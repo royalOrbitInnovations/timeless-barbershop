@@ -35,7 +35,7 @@ export default function StyleCategory({ type, data, isOpen, onToggle }) {
   return (
     <div
       ref={containerRef}
-      className="border-2 border-gold rounded-[25px] overflow-hidden"
+      className="border-2 border-gold rounded-[25px] overflow-hidden shadow-xl"
     >
       <div
         onClick={onToggle}

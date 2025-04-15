@@ -48,7 +48,7 @@ export default function StyleTypeItem({ item }) {
                 <div
                   key={idx}
                   ref={(el) => (imagesRef.current[idx] = el)}
-                  className="relative min-h-[30rem] min-w-[30rem] rounded-[25px] overflow-hidden max-6xl:min-h-[20rem] max-6xl:min-w-[20rem]"
+                  className="relative min-h-[30rem] min-w-[30rem] rounded-[25px] overflow-hidden max-6xl:min-h-[20rem] max-6xl:min-w-[20rem] shadow-xl"
                 >
                   <Image
                     src={img}

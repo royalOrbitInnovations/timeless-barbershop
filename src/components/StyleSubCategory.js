@@ -34,7 +34,7 @@ export default function StyleSubCategory({ code, data, isOpen, onToggle }) {
   return (
     <div
       ref={containerRef}
-      className="border-2 border-black bg-black rounded-[25px] overflow-hidden"
+      className="border-2 border-black bg-black rounded-[25px] overflow-hidden shadow-2xl"
     >
       <div
         onClick={onToggle}
