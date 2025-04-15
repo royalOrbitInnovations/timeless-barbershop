@@ -39,7 +39,7 @@ export default function StyleCategory({ type, data, isOpen, onToggle }) {
     >
       <div
         onClick={onToggle}
-        className="flex justify-between items-center px-[5rem] py-[2rem] cursor-pointer bg-white m-2"
+        className="flex justify-between items-center px-[5rem] py-[2rem] cursor-pointer bg-white m-2 max-6xl:px-[2rem]"
       >
         <h2 className="text-[3rem] text-black text-xl font-bold">
           {type === "hair" ? "Hair Styles" : "Beard Styles"}

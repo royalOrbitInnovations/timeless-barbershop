@@ -35,14 +35,14 @@ export default function Banner() {
           className="absolute top-[10rem] left-1/2 -translate-x-1/2"
           ref={logoRef}
         >
-          <div className="h-[25rem] w-[35rem]">
+          <div className="h-[25rem] w-[35rem] max-5xl:h-[18rem] max-5xl:w-[25rem]">
             <Logo bg="black" />
           </div>
         </div>
         <div className="absolute w-full h-full flex flex-col gap-[3rem] items-center top-[60%]">
           <h2
             ref={headingRef}
-            className="text-white text-[5rem] text-center font-bold uppercase"
+            className="text-white text-[5rem] text-center font-bold uppercase max-5xl:text-[3.5rem]"
           >
             <span>Look Sharp - </span>
             <span>Feel Sharper</span>

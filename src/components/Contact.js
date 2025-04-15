@@ -22,11 +22,11 @@ export default function Contact() {
   }, []);
 
   return (
-    <div className="bg-black text-white px-[15rem] pt-[5rem] pb-[2rem]">
-      <div className="flex items-center justify-center gap-[5rem]">
+    <div className="bg-black text-white px-[15rem] pt-[5rem] pb-[2rem] max-12xl:px-[10rem] max-6xl:px-[2rem]">
+      <div className="flex items-center justify-center gap-[5rem] max-11xl:flex-col">
         <div
           ref={leftRef}
-          className="w-[30%] flex flex-col items-center justify-center gap-[3rem]"
+          className="w-[30%] flex flex-col items-center justify-center gap-[3rem] max-11xl:w-[100%]"
         >
           <div className="h-[17rem] w-[22rem]">
             <Logo type="black" />
@@ -35,7 +35,7 @@ export default function Contact() {
         </div>
         <div
           ref={rightRef}
-          className="w-[70%] h-[40rem] rounded-[25px] overflow-hidden"
+          className="w-[70%] h-[40rem] rounded-[25px] overflow-hidden max-11xl:w-[100%]"
         >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.047512667923!2d51.4294193759308!3d25.235324630154384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45dbf029a0a365%3A0xa501ac46a3fdde7!2sTimeless%20Salon!5e0!3m2!1sen!2sqa!4v1744670761760!5m2!1sen!2sqa"

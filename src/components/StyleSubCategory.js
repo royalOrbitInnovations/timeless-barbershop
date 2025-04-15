@@ -38,9 +38,9 @@ export default function StyleSubCategory({ code, data, isOpen, onToggle }) {
     >
       <div
         onClick={onToggle}
-        className="flex justify-between items-center px-[4rem] py-[1.5rem] cursor-pointer bg-black m-2"
+        className="flex justify-between items-center px-[4rem] py-[1.5rem] cursor-pointer bg-black m-2 max-5xl:px-[2rem]"
       >
-        <h2 className="text-[2rem] text-white font-bold">{data.name}</h2>
+        <h2 className="text-[2rem] text-white ">{data.name}</h2>
         <motion.span
           className="text-[2rem] text-gold"
           animate={isOpen ? "open" : "closed"}

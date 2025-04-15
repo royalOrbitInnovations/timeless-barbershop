@@ -237,4 +237,19 @@ const styles = {
   },
 };
 
-export default styles;
+const imageData = [
+  {
+    image: "/images/barbershop-1.webp",
+    text: "Where Elegance Meets Style",
+  },
+  {
+    image: "/images/barbershop-2.webp",
+    text: "Crafting Timeless Looks",
+  },
+  {
+    image: "/images/barbershop-3.webp",
+    text: "Your Style, Our Passion",
+  },
+];
+
+export { styles, imageData };
