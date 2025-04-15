@@ -137,25 +137,18 @@ const styles = {
         {
           name: "Tapered Beard",
           images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
+            "/images/beard/tapered-1.webp",
+            "/images/beard/tapered-2.webp",
+            "/images/beard/tapered-3.webp",
           ],
         },
-        {
-          name: "Beardstache",
-          images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
-          ],
-        },
+
         {
           name: "Wild Beard",
           images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
+            "/images/beard/wildbeard-1.webp",
+            "/images/beard/wildbeard-2.webp",
+            "/images/beard/wildbeard-3.webp",
           ],
         },
       ],
@@ -166,25 +159,25 @@ const styles = {
         {
           name: "Stubble Beard",
           images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
+            "/images/beard/stubble-1.webp",
+            "/images/beard/stubble-2.webp",
+            "/images/beard/stubble-3.webp",
           ],
         },
         {
           name: "Circle Beard",
           images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
+            "/images/beard/circle-1.webp",
+            "/images/beard/circle-2.webp",
+            "/images/beard/circle-3.webp",
           ],
         },
         {
           name: "Classic Full Beard",
           images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
+            "/images/beard/classicfull-1.webp",
+            "/images/beard/classicfull-2.webp",
+            "/images/beard/classicfull-3.webp",
           ],
         },
       ],
@@ -195,25 +188,17 @@ const styles = {
         {
           name: "Patchy Anchored Stache",
           images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
+            "/images/beard/patchy-1.webp",
+            "/images/beard/patchy-2.webp",
+            "/images/beard/patchy-3.webp",
           ],
         },
         {
           name: "Freestyle Beard",
           images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
-          ],
-        },
-        {
-          name: "Imperial Moustache",
-          images: [
-            "/images/haircuts/mullet-1.webp",
-            "/images/haircuts/mullet-2.webp",
-            "/images/haircuts/mullet-3.webp",
+            "/images/beard/freestyle-1.webp",
+            "/images/beard/freestyle-2.webp",
+            "/images/beard/freestyle-3.webp",
           ],
         },
       ],
