@@ -38,7 +38,7 @@ export default function Contact() {
           className="w-[70%] h-[40rem] rounded-[25px] overflow-hidden max-11xl:w-[100%]"
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.047512667923!2d51.4294193759308!3d25.235324630154384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45dbf029a0a365%3A0xa501ac46a3fdde7!2sTimeless%20Salon!5e0!3m2!1sen!2sqa!4v1744670761760!5m2!1sen!2sqa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.7929669437704!2d51.529419626724184!3d25.28451084136742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c500276061cf%3A0xa3f15571363d74ac!2sMp%20traders%20B%20ring%20road!5e0!3m2!1sen!2sqa!4v1744813338738!5m2!1sen!2sqa"
             width="100%"
             height="100%"
             allowFullScreen=""
