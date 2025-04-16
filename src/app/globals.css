@@ -35,15 +35,6 @@
         format("truetype");
     font-weight: 400;
   }
-
-  @font-face {
-    font-family: "Zolina";
-    src: url("/fonts/Zolina-Medium.woff2") format("woff2"),
-      url("/fonts/Zolina-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
 }
 
 :root {
@@ -54,7 +45,6 @@
   --text-black: #1a1a1a;
   --text-white: #fefefe;
   --font-primary: "SegoeUI", sans-serif;
-  --font-secondary: "Zolina", sans-serif;
 }
 
 @theme inline {
@@ -66,7 +56,6 @@
   --color-text-secondary: var(--text-secondary);
   --font-cc: var(--font-primary);
   --font-cc-bold: var(--font-primary-bold);
-  --font-zolina: var(--font-secondary);
   --base-transition: all 300ms ease;
 }
 
