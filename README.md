@@ -1,1 +1,1 @@
-Landing Page for Timeless BArbershop Qatar
+Landing Page for Timeless Barbershop Qatar - Digital Menu
