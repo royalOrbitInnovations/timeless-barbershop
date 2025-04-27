@@ -264,4 +264,19 @@ const prices = [
   },
 ];
 
-export { styles, imageData, prices };
+const barber = [
+  {
+    name: "John Doe",
+    image: "/images/barber.jpg",
+  },
+  {
+    name: "Jane Smith",
+    image: "/images/barber.jpg",
+  },
+  {
+    name: "Mike Johnson",
+    image: "/images/barber.jpg",
+  },
+];
+
+export { styles, imageData, prices, barber };
