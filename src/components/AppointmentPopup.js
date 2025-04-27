@@ -54,7 +54,7 @@ Barber: ${selectedBarber.name}
 Services: ${servicesText}
     `.trim();
 
-    const url = `https://api.whatsapp.com/send?phone=97450670484&text=${encodeURIComponent(
+    const url = `https://api.whatsapp.com/send?phone=97455360324&text=${encodeURIComponent(
       msg
     )}`;
     window.open(url, "_blank");
