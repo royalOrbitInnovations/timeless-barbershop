@@ -233,12 +233,12 @@ const prices = [
     cost: "Qar: 15",
   },
   {
-    name: "Hair Colouring",
+    name: "Hair Colour",
     image: "/images/services/coloring.webp",
     cost: "Qar: 25",
   },
   {
-    name: "Clean Facial and Steam",
+    name: "Clean Facial & Steam",
     image: "/images/services/facial.webp",
     cost: "Qar: 30",
   },
@@ -248,12 +248,12 @@ const prices = [
     cost: "Qar: 15",
   },
   {
-    name: "Haircut and Beard Trim",
+    name: "Haircut & Beard Trim",
     image: "/images/services/hairbeard.webp",
     cost: "Qar: 45",
   },
   {
-    name: "Deadlocks",
+    name: "Dreadlocks",
     image: "/images/services/deadlock.webp",
     cost: "Qar: 200+",
   },
